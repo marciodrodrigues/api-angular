@@ -1,12 +1,11 @@
 <?php
 //Váriaveis 
-
 $url = "localhost";
 $usuario = "root";
 $senha = "";
 $base = "api";
-//Conexão
 
+//Conexão
 $conexao = mysqli_connect($url, $usuario, $senha, $base);
 
 ?>
